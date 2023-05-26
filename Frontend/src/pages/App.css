@@ -1,0 +1,354 @@
+/* Colors */
+
+:root {
+  --color-blue: #002FD6;
+  --color-green: #05976B;
+  --color-orange: #E57E06;
+  --color-text: #222222f8;
+}
+
+/* Login Pages */
+
+.logoSection {
+  margin-left: 2rem;
+  margin-top: 10rem;
+}
+
+.logoSection p {
+  display: inline;
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.do {
+  color: var(--color-blue);
+}
+
+.with {
+  color: var(--color-orange);
+}
+
+.me {
+  color: var(--color-green);
+}
+
+
+.titleHeader {
+  margin-top: 12rem;
+  text-align: center;
+}
+
+.welcomeSection {
+  margin-top: 15rem;
+}
+
+.loginButton {
+  display: block;
+  margin: 2rem 0 1rem 3rem;
+  text-align: center;
+  width: 80%;
+  height: 6vh;
+  text-transform: capitalize;
+  font-size: large;
+  background-color: var(--color-accent);
+  border-radius: 20px;
+  line-height: 3rem;
+  color: black;
+  border: 2px solid var(--color-blue);
+  border-radius: 5px;
+}
+
+.loginButton p {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.registerButton {
+  display: block;
+  margin: 0 0 0 12rem;
+  text-align: center;
+  width: 40%;
+  height: 6vh;
+  text-transform: capitalize;
+  font-size: 15px;
+  color: var(--color-blue);
+}
+
+.colorSectionBottom {
+  position: absolute;
+  width: 100vw;
+  height: 30vh;
+  margin-top: 40rem;
+  margin-left: 0;
+}
+
+.darkGreenBackgroundBottom {
+  position: relative;
+  height: 40vh;
+
+  z-index: 2;
+}
+
+.lightGreenBackgroundBottom {
+  position: absolute;
+  margin-top: -9.5rem;
+  height: 34vh;
+  clip-path: polygon(
+    100% 100%,
+    0% 100%,
+    0% 60%,
+    11% 62%,
+    23% 63%,
+    36% 68%,
+    48% 74%,
+    60% 80%,
+    69% 82%,
+    84% 85%,
+    94% 85%,
+    100% 86%
+  );
+  z-index: 1;
+}
+
+/* Home Page Styles */
+
+.homePageGrid {
+  width: 100vw;
+  height: 100vh;
+}
+
+.meetingHeading {
+  color: var(--color-orange);
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 1rem;
+}
+
+.navFooterIcons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 2rem;
+  color: gray;
+  width: 80vw;
+}
+
+.navFooterIcons a {
+  color: #222222;
+  
+}
+
+.navFooterText p{
+  display: inline;
+  font-size: 12px;
+}
+
+.home {
+  margin-left: 2rem;
+  margin-right: 1.75rem;
+}
+
+.meeting {
+  margin-right: 1.55rem;
+}
+
+.chatt {
+  margin-right: 1.65rem;
+}
+
+.friends {
+  margin-right: 1.6rem;
+}
+
+.profile {
+  margin-right: 1rem;
+}
+
+.cardComponenet {
+  margin: 0.1rem;
+}
+
+.cardContainer {
+  border: 3px solid var(--color-blue);
+  border-radius: 20px;
+  padding: 0;
+
+}
+
+.meetingCardText{
+  color: var(--color-orange);
+}
+
+.meetingCardDay{
+  color: var(--color-green);
+}
+
+.meetingCardTime {
+  color: var(--color-blue);
+}
+
+.createMeetingLink {
+  color: var(--color-green);
+  margin-left: 15rem;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+
+/* Create Meeting Page */
+
+.createMeetingGrid {
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.createMeetingHeading {
+  color: var(--color-green);
+  font-size: 42px;
+  font-weight: 400;
+  padding-left: 9rem;
+  padding-top: 4rem;
+}
+
+.clearFormButton {
+  margin-left: 17rem;
+  border: none;
+  background: none;
+
+}
+
+.createMeetingTitle {
+   margin-bottom: 1rem;
+   margin-left: 2.75rem;
+   border: none;
+}
+ .createMeetingPlace {
+  margin-bottom: 1rem;
+  margin-left: 2.75rem;
+ }
+
+ .createMeetingDay{
+  margin-bottom: 1rem;
+  margin-left: 2.75rem;
+ }
+
+.createMeetingDescription{
+  margin-left: 2.75rem;
+}
+
+.createMeetingTime{
+  margin-bottom: 1rem;
+  margin-left: 2.75rem;
+}
+
+.formButtons {
+  margin: -11rem 0 0 11.5rem;
+  padding-top: 12rem;
+}
+
+/* New Created Cards */
+
+.createdMeetingGridItem {
+  margin-top: -2rem;
+}
+
+.createdMeetingCardDay {
+  color: var(--color-green);
+}
+
+.createdMeetingCardTime {
+  color: var(--color-blue);
+}
+
+.createdMeetingCardPlace {
+  color: var(--color-orange);
+}
+
+/* Profile Page */
+
+.profilePageGrid {
+  height: 100vh;
+  width: 100vw;
+}
+
+.profileHeading {
+  color: var(--color-orange);
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 1rem;
+}
+
+.profileCardContainer {
+  border: 3px solid var(--color-green);
+  border-radius: 20px;
+}
+
+.profileCardHeading{
+  color: var(--color-blue);
+  font-weight: 700;
+  font-size: 24;
+}
+
+.profileAvatar {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.profileAge{
+  margin-left: 5rem;
+  margin-top: -6.25rem;
+  color: var(--color-green);
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.profileCity {
+  margin-left: 5rem;
+  color: var(--color-blue);
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.profileIntrests {
+  margin-left: 5rem;
+  color: var(--color-orange);
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.profileBodyContainer{
+  margin-top: 3rem;
+  margin-bottom: 15rem;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.profileSettingsButton {
+  margin-left: 13rem;
+}
+
+/* Calendar Page */
+
+.calendarHeading {
+  color: var(--color-orange);
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+/* Chat Page */
+
+.chatPageGrid {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Error Page */
+
+.constructionVideo {
+  margin-top: 29rem;
+  width: 390px;
+}
